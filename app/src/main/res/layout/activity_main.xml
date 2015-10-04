@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadImagefromGallery"
+        android:text="Load Picture"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonSendPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendImage"
+        android:text="Send Picture" >
+    </Button>
+
+</LinearLayout>
